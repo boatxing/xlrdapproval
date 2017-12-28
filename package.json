@@ -1,0 +1,35 @@
+{
+  "name": "xlrdapproval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "xlsx": "^0.11.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "bin": {
+    "legospro": "./bin/xlrdar.js",
+    "lgp": "./bin/xlrdar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boatxing/xlrdapproval.git"
+  },
+  "author": "boatxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boatxing/xlrdapproval/issues"
+  },
+  "homepage": "https://github.com/boatxing/xlrdapproval#readme"
+}
